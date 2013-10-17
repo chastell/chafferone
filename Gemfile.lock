@@ -6,6 +6,9 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    bogus (0.1.4)
+      dependor (>= 0.0.4)
+    dependor (1.0.1)
     minitest (5.0.8)
     rake (10.1.0)
 
@@ -13,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bogus
   chafferone!
   minitest (~> 5.0)
   rake (~> 10.1)
