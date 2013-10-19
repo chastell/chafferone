@@ -6,8 +6,8 @@ module Chafferone describe ChatterboxOffice do
       jruby = fake :author
       rubix = fake :author
       posts = [fake(:post, author: jruby), fake(:post, author: rubix),
-        fake(:post, author: jruby), fake(:post, author: rubix),
-        fake(:post, author: jruby)]
+               fake(:post, author: jruby), fake(:post, author: rubix),
+               fake(:post, author: jruby)]
       ChatterboxOffice.new(posts: posts).turnover.must_equal [
         ChatterboxOffice::Entry[jruby, 3],
         ChatterboxOffice::Entry[rubix, 2],
