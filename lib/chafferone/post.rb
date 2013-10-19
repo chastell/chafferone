@@ -1,4 +1,4 @@
 module Chafferone class Post
-  def source
+  def author
   end
 end end
