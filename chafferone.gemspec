@@ -12,6 +12,6 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'bogus'
   gem.add_development_dependency 'minitest', '~> 5.0'
-  gem.add_development_dependency 'rake',     '~> 10.1'
+  gem.add_development_dependency 'rake',     '~> 12.3'
   gem.add_development_dependency 'rubocop'
 end
